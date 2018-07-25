@@ -1,6 +1,6 @@
 FROM gliderlabs/alpine:3.3
 
-MAINTAINER "Daniel Whatmuff" <danielwhatmuff@gmail.com>
+MAINTAINER "Benoist Ober" <benoist.ober@gmail.com>
 
 LABEL name="Docker image for the Robot Framework http://robotframework.org/"
 LABEL usage="docker run -e ROBOT_TESTS=/path/to/tests/ --rm -v $(pwd)/path/to/tests/:/path/to/tests/ -ti robot-docker"
