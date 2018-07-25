@@ -31,7 +31,8 @@ Example of running the sample tests::
     docker run --rm \
                -e ROBOT_TESTS=/sample_tests/ \
                -v $(pwd)/sample_tests:/sample_tests \
-               -ti robotfwk_alpine:latest
+               -ti \
+               robotfwk_alpine:latest
 
 Use the Docker Hub automated build::
 
