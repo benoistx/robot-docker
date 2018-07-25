@@ -33,7 +33,3 @@ Example of running the sample tests::
                -v $(pwd)/sample_tests:/sample_tests \
                -ti \
                robotfwk_alpine:latest
-
-Use the Docker Hub automated build::
-
-    docker pull benoistx/robotfwk_alpine:latest
